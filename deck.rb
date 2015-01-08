@@ -1,5 +1,3 @@
-require 'pry'
-
 class Deck
 	attr_accessor :deck
 

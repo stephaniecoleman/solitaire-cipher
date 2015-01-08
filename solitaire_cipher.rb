@@ -1,5 +1,4 @@
 require_relative './deck.rb'
-require 'pry'
 
 class SolitaireCipher
 	attr_accessor :message, :keystream, :final_encryption
@@ -87,5 +86,5 @@ solitaire.step_3
 solitaire.step_4
 solitaire.step_5
 solitaire.step_6
-binding.pry
+
 
